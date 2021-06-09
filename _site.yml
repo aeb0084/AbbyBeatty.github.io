@@ -1,0 +1,54 @@
+name: "TITLE"
+output_dir: "."
+navbar:
+  left:
+    - text: "Welcome" 
+      href: index.html
+    - text: "Curriculum Vitae" 
+      href: CV.html
+    - text: "Publications" 
+      href: pub.html
+    - text: "R Code Repository" 
+      href: item.html
+      menu:
+      - text: "Purpose and Use"
+        href: Rcode.html
+      - text: "Graphics"
+        href: item1.html
+        menu:    
+          - text: "ggplot Basic Plots"
+            href: A_ggbasics.html
+          - text: "ggplot Adaptations"
+            href: B_ggadapt.html
+          - text: "gghalves Plots"
+            href: C_gghalves.html
+          - text: "Raincloud Plots"
+            href: D_raincloud.html
+      - text: "Working with Data"
+        href: item2.html
+        menu:    
+          - text: "Data Format Manipulation"
+            href: E_manipulation.html
+          - text: "Data Calculations (ex. Demographics)"
+            href: F_calculations.html
+      - text: "Statistical Analysis"
+        href: item3.html
+        menu:   
+          - text: "Confirmatory Factor Analyses"
+            href: G_CFA.html
+          - text: "Linear Models"
+            href: H_nlme.html
+          - text: "Principle Component Analysis"
+            href: I_PCA.html
+    - text: "Resources"
+      href: res.html
+  right:
+    - icon: fa-envelope fa-2x
+      href: mailto:<aeb0084@auburn.edu>
+    - icon: fab fa-github fa-2x
+      href: http://github.com/aeb0084
+    - icon: fab fa-twitter fa-2x
+      href: https://twitter.com/AbbyBeatty4
+output: 
+  html_document:
+    theme: united 
