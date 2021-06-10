@@ -1,13 +1,9 @@
 
-# About Me
+# Welcome! 
+![](header.png)
 
-## Faculty
+## Here is some information about me...
 
-## Post-Doc
-
-## PhD
-
-## Undergrad
-
+# <i class="fas fa-exclamation-circle fa-lg fa-pulse" style="color: firebrick"></i> Exciting News! 
 
 

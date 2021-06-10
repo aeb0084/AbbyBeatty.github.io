@@ -4,6 +4,13 @@ navbar:
   left:
     - text: "Welcome" 
       href: index.html
+    - text: "Research and Teaching" 
+      href: item.html
+      menu:
+      - text: "Research Interests"
+        href: research.html
+      - text: "Teaching and Outreach"
+        href: teaching.html
     - text: "Curriculum Vitae" 
       href: CV.html
     - text: "Publications" 
@@ -40,8 +47,6 @@ navbar:
             href: H_nlme.html
           - text: "Principle Component Analysis"
             href: I_PCA.html
-    - text: "Resources"
-      href: res.html
   right:
     - icon: fa-envelope fa-2x
       href: mailto:<aeb0084@auburn.edu>
